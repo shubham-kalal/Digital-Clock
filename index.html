@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                height: 94vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font:bold 12px Arial, Helvetica, sans-serif;
+                background-color: black;
+            }
+            .clock{
+                border: 1px solid #606060;
+                color: white;
+                padding: 40px;
+                border-radius: 10px;
+                background-color: #222222;
+            }
+            #Date{
+                font-size: 20px !important;
+                text-align: center;
+            }
+            .clock ul{
+                list-style: none;
+                display: flex;
+                font-size: 90px;
+                gap: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="clock">
+                <div id="Date">Monday 26 September 2023</div>
+
+                <ul>
+                <li id="hours">05</li>
+                    <li id="point">:</li>
+                    <li id="min">20</li>
+                    <li id="point">:</li>
+                    <li id="sec">30</li>
+                </ul>
+            </div>
+        </div>
+ <script src="script.js"></script>
+
+      
+    </body>
+</html>
